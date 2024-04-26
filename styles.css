@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+footer{
+    width: auto;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    background-color: rgb(69, 67, 204);
+}
+#Logo{
+    width: 90px;
+    height: 90px;
+}
+#Logo-box{
+    width: auto;
+    height: 150px;
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(69, 67, 204);
+}
+.Aling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 0.3%;
+
+    align-content: center;
+}
+.Aling-Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    margin: 0;
+    padding-top:2%;
+}
+#Nav-box{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+.Link{
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 65px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+
+}
+.imageScrollerText{
+    font-size: large;
+    font-weight: 900;
+    margin: 0;
+    padding: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;  
+}
+.scrollerContainer{
+    width: auto;
+    height: 225px;
+    background-color: rgb(174, 173, 243);
+    
+}
+.imageContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.hover{
+    margin: 0;
+    margin-top: 15px;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding:0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerText{
+    font-size: 20px;
+    font-weight: 900;
+}
+aside{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(69, 67, 204);
+    color: wheat;
+    border: 2px solid rgb(174, 173, 243);
+}
+.utah-img{
+    width: 200px;
+    height: auto;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
