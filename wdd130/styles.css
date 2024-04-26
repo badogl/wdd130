@@ -9,7 +9,10 @@ footer{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> cea56aba62db4354ff0d5acf3e7b6b2775c69b51
     margin: 0;
     margin-top: 30px;
     padding: 0;
@@ -116,6 +119,7 @@ align-items: center;
 .footerText{
     font-size: 20px;
     font-weight: 900;
+<<<<<<< HEAD
 }
 aside{
     width: auto;
@@ -133,4 +137,6 @@ aside{
 p{
     margin: 0;
     padding: 0;
+=======
+>>>>>>> cea56aba62db4354ff0d5acf3e7b6b2775c69b51
 }
