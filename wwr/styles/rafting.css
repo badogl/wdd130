@@ -27,6 +27,14 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+#raftingLogo{
+    width: 200px;
+    height: 200px;
+    background-color: var(--accent1-color);
+    border-radius: 100px;
+    color: black;
+    margin: 40px;
+}
 body{
     margin: 0;
     margin-left: 500px;
