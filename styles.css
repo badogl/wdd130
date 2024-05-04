@@ -152,6 +152,7 @@ p{
 aside{
     width: 20em;
     text-align: center;
+    position: relative;
 }
 main img{
     float: right;
@@ -160,4 +161,7 @@ aside h2{
     position: absolute;
     top: 200px;
     left: 25px;
+}
+.size{
+    width: 700px;
 }
