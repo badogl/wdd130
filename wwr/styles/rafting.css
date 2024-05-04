@@ -1,0 +1,66 @@
+:root{
+    --heading-font:"Roboto";
+    --paragraph-font:"Roboto";
+
+    --font-color:var(--nav-link-color);
+
+    --primary-color:#000000;
+    --secondary-color:#07524b;
+    --accent1-color:#78b6b0;
+    --accent2-color:#042e2a;
+
+    --nav-background-color:#063458d2;
+    --nav-link-color:#000000;
+    --nav-hover-link-color:#cfe7fc;
+    --nav-hover-background-color:#0d4e83b2;
+}
+html{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+*{
+    font-family: var(--heading-font);
+    text-decoration: none;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    margin-left: 500px;
+    padding: 0;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    display: block;
+}
+.socialLogos{
+    width: 100px;
+    height: 100px;
+}
+.hero{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1{
+    position: relative;
+}
+article{
+    position: relative;
+}
+.headerimg{
+    width: 100%;
+    height: 400px;
+}
+.imgdepo{
+    width: 600px;
+    height: 600px;
+}
+p{
+    font-size: large;
+    margin-bottom: 50px;
+}
