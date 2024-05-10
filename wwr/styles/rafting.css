@@ -20,7 +20,7 @@ html{
     align-content: center;
 }
 *{
-    font-family: var(--heading-font);
+    font-family: 'Roboto',var(--heading-font);
     text-decoration: none;
     align-content: center;
     margin: 0;
@@ -71,4 +71,7 @@ article{
 p{
     font-size: large;
     margin-bottom: 50px;
+}
+.sedan-sc-regular{
+    font-family: "Sedan SC";
 }
