@@ -157,11 +157,11 @@ aside{
 main img{
     float: right;
 }
-aside h2{
+/* aside h2{
     position: absolute;
     top: 200px;
     left: 25px;
-}
+} */
 .size{
     width: 700px;
 }
