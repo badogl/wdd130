@@ -94,8 +94,7 @@ article{
     float: right;
 }
 .footer-p{
-   grid-column: 2/4; 
+   grid-column: 4/5; 
+   text-align: center;
 }
-.footer-p p{
-    float: right;
-}
+
