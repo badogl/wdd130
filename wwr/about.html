@@ -10,13 +10,15 @@
 </head>
 <body>
     <header>
-        <img src="images/W02-Rafting-Site.png" alt="Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <div class="grid">
+            <img class="img-grid" src="images/W02-Rafting-Site.png" alt="Logo">
+            <nav class="nav-grid">
+                <a class="header-a" href="index.html">Home</a>
+                <a class="header-a" href="about.html">About Us</a>
+                <a class="header-a" href="trips.html">Trips</a>
+                <a class="header-a" href="contact.html">Contact Us</a>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -28,32 +30,44 @@
             </article>
             <section>
                 <h2>History</h2>
-                <p>Bu bir anlamsiz yazi öbegi degildir. Turkce yaziyorum ki bi anlami olsun ama bazi harfler gercekten kullanilmaz durumdalar.</p>
+                <div class="grid">
+                    <p class="first-p-grid">Bu bir anlamsiz yazi öbegi degildir. Turkce yaziyorum ki bi anlami olsun ama bazi harfler gercekten kullanilmaz durumdalar.</p>
+                    <p class="second-p-grid">Deneme icin yazdigim bu yazi umarim iyi bir sonuca hizmet eder. Sonucta cok ugrasiyorum.</p>
+                </div>
             </section>
             <section>
                 <h2>Adventure Awaits you</h2>
-                <img class="imgdepo" src="images/r1.jpg" alt="">
-                <img class="imgdepo" src="images/r2.jpg" alt="">
-                <img class="imgdepo" src="images/r3.jpg" alt="">
-                <img class="imgdepo" src="images/r4.jpg" alt="">
-                <img class="imgdepo" src="images/r5.jpg" alt="">
+                <figure>
+                <img class="imgdepo" src="images/r1.jpg" alt=""> <figcaption>Los Dientes del Diablo</figcaption>   
+                <img class="imgdepo" src="images/r2.jpg" alt=""><figcaption>Big Mallard</figcaption>
+                <img class="imgdepo" src="images/r3.jpg" alt=""><figcaption>Half Day Adventure</figcaption>
+                <img class="imgdepo" src="images/r4.jpg" alt=""><figcaption>Good Day</figcaption>
+                <img class="imgdepo" src="images/r5.jpg" alt=""><figcaption>Happy Client</figcaption>
+                </figure>
             </section>
         </div>
     </main>
     <footer>
-        <p>©️ 🛶 Rafting Company Name 2024 Batuhan Badoglu 🛶 / Provo/Utah</p>
-        <nav class="sociallinks">
-            <a  href="https://facebook.com">
-                <img class="socialLogos" src="images/f1.png" alt="">
-            </a>
-            <a href="https://twitter.com">
-                <img class="socialLogos" src="images/t1.png" alt="">
-            </a>
-            <a href="https://instagram.com">
-                <img class="socialLogos" src="images/i1.png" alt="">
-            </a>
-            <p>©️ 2024 Batuhan Badoglu /Rafting Company Name/ Provo/Utah</p>
-        </nav>
+        <div class="grid">
+            <div class="footer-p">
+                <p>©️ 🛶 Rafting Company Name 2024 Batuhan Badoglu 🛶 / Provo/Utah</p>
+            </div>
+            <div class="social">
+                <nav class="sociallinks">
+                    <a  href="https://facebook.com">
+                        <img class="socialLogos" src="images/f1.png" alt="">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="socialLogos" src="images/t1.png" alt="">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img class="socialLogos" src="images/i1.png" alt="">
+                    </a>
+                </nav>
+            </div>    
+            
+        </div>
+
     </footer>
 </body>
 </html>
