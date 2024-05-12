@@ -54,17 +54,19 @@ article{
     display: grid;
     align-items: center;
 }
-.img-grid{
+/* .img-grid{
     grid-column: 1/2;
+} */
+.nav-grid1{
+    margin-left:250px ;
+    display: flex;
 }
 .nav-grid{
-    width: 460px;
-    grid-column: 2/3;
-    padding: 10px;
-    border: 2px solid #000 ;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 
-
-}
+} 
 .header-a{
     width: auto;
     height: auto;
