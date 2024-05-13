@@ -15,28 +15,33 @@
             <h1>Basic HTML and CSS Quiz</h1>
         </div>
         <div id="quiz-div">
+            <form action="/submit-form" method="post">
 
-            <label id="quiz-label" for="">  
-                
-                <p>1.What does the acronym CSS stand for?</p>
-                <input id="q1" type="text" name="q1">
+                <label id="quiz-label" for="">  
+                    <p>1.What does the acronym CSS stand for?</p>
+                    
+                    <input id="q1" type="text" name="q1">
+                </label> 
+                <label for="">
+                    <p>2.How are id and class attiributes selected in CSS?</p>
+                    <TextArea id="q2" type="text" name="q2"></Textarea>
+                </label>
+                <label for="">
+                    <p>3.Which of the following is a valid CSS?</p>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>choose one</option>
+                        <option value="" selected disabled>choose two</option>
+                        <option value="" selected disabled>choose three</option>
+                    </select>
+                </label>
+                <label for="">
+                    <p>4.What is the bottom margin given this declaration?</p>
+                    <input type="number" id="q4" name="q4" >
+                </label>
 
-                <p>2.How are id and class attiributes selected in CSS?</p>
-                <input type="textarea" id="q2" name="q2" id="">
+                    <button id="but" type="Submit Quiz" submit="Submit Quiz">Submit Quiz</button>
 
-                <p>3.Which of the following is a valid CSS?</p>
-                <select name="q3" id="q3">
-                    <option value="" selected disabled>choose one</option>
-                    <option value="" selected disabled>choose two</option>
-                    <option value="" selected disabled>choose three</option>
-                </select>
-
-                <p>What is the bottom margin given this declaration?</p>
-                <input type="number" id="q4" name="q4" >
-
-                <button id="but" type="Submit Quiz" submit="Submit Quiz">Submit Quiz</button>
-
-            </label> 
+            </form>
         </div>
     </main>
 </body>
