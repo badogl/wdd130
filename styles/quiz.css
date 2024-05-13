@@ -1,0 +1,73 @@
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 20px;
+}
+/* Class Selectors */
+.header{
+    display: block;
+}
+.header input{
+   display: inline;
+}
+.header h1{
+    display: inline;
+    color: rgb(5, 5, 120);
+}
+
+
+#quiz-div{
+    background-color: #ddd;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#quiz-label{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+
+}
+#q1{
+    width: 100%;
+    height:25px;
+   
+}
+#q2{
+    width: 100%;
+    height: 150px;
+   
+}
+#q3{
+    width: 100%;
+    height:25px;
+    
+}
+#q4{
+    width: 100%;
+    height:25px;
+}
+#but{
+    background-color: rgb(36, 0, 197);
+    color: antiquewhite;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 600;
+    width: 102%;
+    height:45px;
+    margin-top: 10px;
+    display: block;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
