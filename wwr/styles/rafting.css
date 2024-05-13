@@ -22,10 +22,12 @@ a{
 }
 h1{
     position: absolute;
+    align-content: center;
+    text-align: center;
     top: 600px;
-    left: 500px;
+    left: 400px;
     font-size: 100px;
-    background-color: #00949c3a;
+    background-color: #00949c52;
 }
 article img{
     float: right;
@@ -54,9 +56,6 @@ article{
     display: grid;
     align-items: center;
 }
-/* .img-grid{
-    grid-column: 1/2;
-} */
 .nav-grid1{
     margin-left:250px ;
     display: flex;
@@ -79,7 +78,6 @@ article{
     padding-left: 15px;
     border-right: none;
 }
-
 .first-p-grid{
     width: auto;
     grid-column: 1/2;
@@ -88,7 +86,6 @@ article{
     width: auto;
     grid-column: 2/3;
 }
-
 .social{
     grid-column: 5/6;
 } 
@@ -99,4 +96,3 @@ article{
    grid-column: 4/5; 
    text-align: center;
 }
-
