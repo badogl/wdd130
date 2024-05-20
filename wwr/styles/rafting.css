@@ -67,12 +67,17 @@ article{
 
 } 
 .header-a{
+    color: var(--primary-color);
     width: auto;
     height: auto;
     font-size: 25px;
     margin: 0px;
     padding: 10px;
     border-right: 2px solid #000;
+}
+.header-a:hover{
+    color: var(--secondary-color);
+    font-size: 35px;
 }
 .header-a:last-child{
     padding-left: 15px;
@@ -95,4 +100,100 @@ article{
 .footer-p{
    grid-column: 4/5; 
    text-align: center;
+}
+.empl{
+    width: 250px;
+    height: 200px;
+    margin-left: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+.Employees h1{
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+.block{
+    display:block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.r1{
+    width: 152px;
+    height: 16px;
+    margin-left: 13px;
+    background-color: #cfe7fca8;
+    border: 1px solid var(--nav-background-color);
+}
+.r2{
+    width: 152px;
+    height: 16px;
+    background-color: #cfe7fca8;
+    border: 1px solid var(--nav-background-color);
+}
+.r4{
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+.MsgSend{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    width: 170px;
+    height: 35px;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+}
+.MsgSend:hover{
+    background-color: var(--accent2-color);
+    font-size: 16px;
+    width: 175px;
+    height: 38px;
+    margin-left: 83px;
+}
+.block4{
+    display: inline;
+    float: inline-start;
+}
+.C1:hover{
+    color: var(--secondary-color);
+}
+.Moq{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.Moq:hover{
+    color: var(--nav-hover-background-color);
+}
+.C1{
+    font-size: 50px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+.CFoot{
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #0000004b;
 }
