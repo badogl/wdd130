@@ -20,15 +20,7 @@ h1,h2,h3,h4,h5,h6{
 a{
     text-decoration: none;
 }
-h1{
-    position: absolute;
-    align-content: center;
-    text-align: center;
-    top: 600px;
-    left: 400px;
-    font-size: 100px;
-    background-color: #00949c52;
-}
+
 article img{
     float: right;
 }
@@ -38,7 +30,26 @@ article{
     background-color: #00949cb0;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+
 /* Class Selectors */
+.h1{
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    top: 600px;
+    left: 400px;
+    font-size: 100px;
+    background-color: #00949c52;
+}
 .hero{
     position: relative;
     text-align: center;
@@ -198,3 +209,64 @@ article{
     padding-top: 50px;
     border-top: 1px solid #0000004b;
 }
+
+.col1{
+    width: 30%;
+    text-align: center;
+}
+
+.col2{
+    text-align: center;
+    width: 15%;
+}
+.col3{
+    width: 15%;
+    text-align: center;
+}
+.col4{
+    text-align: center;
+}
+
+.imgSize{
+    width: 400px;
+    height: 300px;
+}
+.csize{
+    width: 50px;
+}
+.nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+.nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+.trips-container{
+    display: grid;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;  */
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+.content1{
+    display: inline;
+    grid-column: 1/2; 
+}
+.content2{
+    display: inline;
+    grid-column: 3/4; 
+}
+.content3{
+    display: inline;
+    grid-column: 5/6; 
+}
+.pcontent1{
+    padding-left: 150px;
+}
+

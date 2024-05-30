@@ -81,3 +81,7 @@ header,footer,.grid{
     display: grid;
     align-items: center;
 }
+
+.col1{
+    width: 50%;
+}
