@@ -214,7 +214,6 @@ header{
     width: 30%;
     text-align: center;
 }
-
 .col2{
     text-align: center;
     width: 15%;
@@ -230,6 +229,7 @@ header{
 .imgSize{
     width: 400px;
     height: 300px;
+    
 }
 .csize{
     width: 50px;
@@ -247,9 +247,6 @@ header{
 }
 .trips-container{
     display: grid;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center;  */
     width: auto;
     height: auto;
     margin: 50px;
@@ -269,4 +266,147 @@ header{
 .pcontent1{
     padding-left: 150px;
 }
+.book-now{
+    display: inline;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+}
+.book-now:hover{
+    display: inline;
+    margin: 0;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+}
 
+.form-div{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#user-enter{
+    padding: 40px;
+    background-color: #0003;
+    margin: 40px;
+    border-radius: 5px;
+    border: 1px solid #0005;
+    box-shadow:3px 3px 2px 2px rgba(0, 0, 0, 0.226) ;
+}
+.user-login{
+    font-size: larger;
+    font-weight: 900;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+#username{
+    margin: 5px;
+}
+#email{
+    margin: 15px;
+}
+.button-div{
+    margin-left: 50px;
+}
+#user-button{
+    width: 125px;
+    height: 28px;
+    margin: 1px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+}
+#user-a-but{
+    color: var(--nav-hover-link-color);
+}
+#user-a-but:visited{
+    color: var(--nav-hover-link-color);
+}
+#user-a-but:hover{
+    color: var(--nav-hover-link-color);
+}
+#user-button:hover{
+    width: 135px;
+    height: 30px;
+    margin: 0;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+#q1-l{
+    font-weight: 700;
+    margin-right: 2px;
+}
+#q2-l{
+    font-weight: 700;
+}
+#q1{
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+#q2{
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.call-to{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+.call-to-div{
+    display: flex;
+    
+}
+#call-to{
+    background-color: var(--nav-background-color);
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--nav-hover-link-color);
+    font-size: 15px;
+    font-weight: 800;
+    padding: 35px;  
+    margin: 60px;
+}
+
+#call-to:hover{
+    background-color: var(--nav-hover-background-color);
+    text-decoration: none;
+    color: var(--nav-hover-link-color);
+    font-size: large;
+    font-weight: 800;  
+    padding: 48px;   
+    margin: 45px;
+}
+.img-add{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.img-grid1{
+    display: inline;
+    grid-column: 1/2;
+    
+}
+.img-grid2{
+    display: inline;
+    grid-column: 2/3;
+
+}
